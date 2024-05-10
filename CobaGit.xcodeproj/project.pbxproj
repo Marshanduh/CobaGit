@@ -16,6 +16,10 @@
 		B6CDE0272BEDACB600F89486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6CDE0262BEDACB600F89486 /* Assets.xcassets */; };
 		B6CDE02A2BEDACB600F89486 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6CDE0292BEDACB600F89486 /* Preview Assets.xcassets */; };
 		B6CDE02D2BEDACB600F89486 /* WatchCobaGit Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B6CDE0202BEDACB400F89486 /* WatchCobaGit Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B6CDE0392BEDB05500F89486 /* MacCobaGitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CDE0382BEDB05500F89486 /* MacCobaGitApp.swift */; };
+		B6CDE03B2BEDB05500F89486 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CDE03A2BEDB05500F89486 /* ContentView.swift */; };
+		B6CDE03D2BEDB05700F89486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6CDE03C2BEDB05700F89486 /* Assets.xcassets */; };
+		B6CDE0402BEDB05700F89486 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6CDE03F2BEDB05700F89486 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,12 @@
 		B6CDE0242BEDACB400F89486 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B6CDE0262BEDACB600F89486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6CDE0292BEDACB600F89486 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B6CDE0362BEDB05500F89486 /* MacCobaGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacCobaGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6CDE0382BEDB05500F89486 /* MacCobaGitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacCobaGitApp.swift; sourceTree = "<group>"; };
+		B6CDE03A2BEDB05500F89486 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B6CDE03C2BEDB05700F89486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6CDE03F2BEDB05700F89486 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B6CDE0412BEDB05700F89486 /* MacCobaGit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacCobaGit.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +80,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B6CDE0332BEDB05500F89486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +95,7 @@
 			children = (
 				B6CDE00D2BEDAC7100F89486 /* CobaGit */,
 				B6CDE0212BEDACB400F89486 /* WatchCobaGit Watch App */,
+				B6CDE0372BEDB05500F89486 /* MacCobaGit */,
 				B6CDE00C2BEDAC7100F89486 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,6 +105,7 @@
 			children = (
 				B6CDE00B2BEDAC7100F89486 /* CobaGit.app */,
 				B6CDE0202BEDACB400F89486 /* WatchCobaGit Watch App.app */,
+				B6CDE0362BEDB05500F89486 /* MacCobaGit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +144,26 @@
 			isa = PBXGroup;
 			children = (
 				B6CDE0292BEDACB600F89486 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B6CDE0372BEDB05500F89486 /* MacCobaGit */ = {
+			isa = PBXGroup;
+			children = (
+				B6CDE0382BEDB05500F89486 /* MacCobaGitApp.swift */,
+				B6CDE03A2BEDB05500F89486 /* ContentView.swift */,
+				B6CDE03C2BEDB05700F89486 /* Assets.xcassets */,
+				B6CDE0412BEDB05700F89486 /* MacCobaGit.entitlements */,
+				B6CDE03E2BEDB05700F89486 /* Preview Content */,
+			);
+			path = MacCobaGit;
+			sourceTree = "<group>";
+		};
+		B6CDE03E2BEDB05700F89486 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B6CDE03F2BEDB05700F89486 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -168,6 +207,23 @@
 			productReference = B6CDE0202BEDACB400F89486 /* WatchCobaGit Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B6CDE0352BEDB05500F89486 /* MacCobaGit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6CDE0422BEDB05700F89486 /* Build configuration list for PBXNativeTarget "MacCobaGit" */;
+			buildPhases = (
+				B6CDE0322BEDB05500F89486 /* Sources */,
+				B6CDE0332BEDB05500F89486 /* Frameworks */,
+				B6CDE0342BEDB05500F89486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacCobaGit;
+			productName = MacCobaGit;
+			productReference = B6CDE0362BEDB05500F89486 /* MacCobaGit.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -182,6 +238,9 @@
 						CreatedOnToolsVersion = 15.2;
 					};
 					B6CDE01F2BEDACB400F89486 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					B6CDE0352BEDB05500F89486 = {
 						CreatedOnToolsVersion = 15.2;
 					};
 				};
@@ -201,6 +260,7 @@
 			targets = (
 				B6CDE00A2BEDAC7100F89486 /* CobaGit */,
 				B6CDE01F2BEDACB400F89486 /* WatchCobaGit Watch App */,
+				B6CDE0352BEDB05500F89486 /* MacCobaGit */,
 			);
 		};
 /* End PBXProject section */
@@ -224,6 +284,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B6CDE0342BEDB05500F89486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6CDE0402BEDB05700F89486 /* Preview Assets.xcassets in Resources */,
+				B6CDE03D2BEDB05700F89486 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -242,6 +311,15 @@
 			files = (
 				B6CDE0252BEDACB400F89486 /* ContentView.swift in Sources */,
 				B6CDE0232BEDACB400F89486 /* WatchCobaGitApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6CDE0322BEDB05500F89486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6CDE03B2BEDB05500F89486 /* ContentView.swift in Sources */,
+				B6CDE0392BEDB05500F89486 /* MacCobaGitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +569,60 @@
 			};
 			name = Release;
 		};
+		B6CDE0432BEDB05700F89486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacCobaGit/MacCobaGit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacCobaGit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-sampleCode.MacCobaGit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B6CDE0442BEDB05700F89486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacCobaGit/MacCobaGit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacCobaGit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-sampleCode.MacCobaGit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -517,6 +649,15 @@
 			buildConfigurations = (
 				B6CDE02F2BEDACB600F89486 /* Debug */,
 				B6CDE0302BEDACB600F89486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6CDE0422BEDB05700F89486 /* Build configuration list for PBXNativeTarget "MacCobaGit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6CDE0432BEDB05700F89486 /* Debug */,
+				B6CDE0442BEDB05700F89486 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
